@@ -1,0 +1,50 @@
+name = Simon
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[sidebar_first]  = First Sidebar
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[content]        = 'Content'
+regions[sidebar_right] = 'Sidebar Right'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+regions[sidebar_first]  = First Sidebar
+regions[header]         = Header
+regions[preface_first]  = Preface First
+regions[preface_middle] = Preface Middle
+regions[preface_last]   = Preface Last
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[help]           = Help
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+regions[footer_fourth]  = Fourth Bottom
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/normalize.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = js/vendor/foundation.js
+scripts[] = js/vendor/what-input.js
+scripts[] = js/app.js

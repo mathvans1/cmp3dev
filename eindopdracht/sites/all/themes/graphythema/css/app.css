@@ -1,0 +1,97 @@
+#header {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/*------- Algemene CSS --------*/
+
+h1, h2, h3, h4, h5, span{
+	color: #242A34;
+	font-family: "Helvetica Neue LT Std", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: Arial, sans-serif;
+}
+
+
+a{
+	transition: color 0.3s ease-in-out;
+	color: #07D9D5;
+}
+
+a:hover{
+	color: #8f8f8f;
+}
+
+
+/*----- top - logo / menu ------ */
+.top-bar{
+	background-color: #242A34;
+	border-bottom: 10px solid #07D9D5;
+	margin-bottom: 20px;
+}
+
+.top-bar, .top-bar-left, .top-bar-right a {
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: color 0.2s ease-in-out;
+}
+
+.top-bar-right a:hover {
+	color: #8f8f8f;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/* ----- Footer ----- */
+
+.medium-6{
+	margin-top:100px;
+	border-top: 10px solid #07D9D5 ;
+	background-color: #242A34;
+}
+
+/*footer links + hover*/
+.medium-6 a{
+	color: white;
+}
+.medium-6 a:hover{
+	color: #8f8f8f;
+}
+
+.menu-text{
+	color: white;
+}
+
+
+
+/*------- GROEPEN --------*/
+.view-content h3 a{
+	color: #242A34;
+}
+.view-content h3 a:hover{
+	color: #394353;
+}
+
+.view-content h3{
+	margin-top: 30px;
+
+}
+
+.views-row span a{
+	color: #8f8f8f;
+}
+.views-row span a:hover{
+	color: #394353;
+}

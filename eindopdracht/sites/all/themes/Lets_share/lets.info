@@ -1,0 +1,18 @@
+name        = Lets
+description = A lets theme, made by Mathias Van Sele
+core = 7.x
+
+engine      = phptemplate
+
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/materialize.css
+
+scripts[] = js/main.js
+scripts[] = js/bin/materialize.js
+
+regions[content]        = Content
+regions[sidebar]        = sidebar
+regions[footer]         = Footer
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom

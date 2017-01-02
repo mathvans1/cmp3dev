@@ -1,0 +1,11 @@
+#header {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero h1 {
+	padding-bottom: 100px;
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+}

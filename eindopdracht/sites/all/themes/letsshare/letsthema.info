@@ -1,0 +1,15 @@
+name = LETS Share
+description = Theme made by Mathias Van Sele
+core = 7.x
+
+stylesheets[all][] = css/foundation.min.css
+stylesheets[all][] = css/foundation-icons.css
+stylesheets[all][] = css/app.css
+
+scripts[] = js/jquery-1.9.0.js
+scripts[] = js/scripts.js
+
+regions[page_top] = Header
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[page_bottom] = Footer

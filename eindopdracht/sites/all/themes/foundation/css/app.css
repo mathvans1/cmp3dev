@@ -1,0 +1,26 @@
+#header {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero h1 {
+	padding-bottom: 100px;
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+}
+
+#block-system-main-menu h2{
+
+	display: none;
+}
+
+.title_service{
+	display:inline-block;
+	background-color: pink;
+}
+
+.bg_yellow{
+
+	background-color: #ffff00;
+}
